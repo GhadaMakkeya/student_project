@@ -1,49 +1,57 @@
-# 🎓 Student Task Management System (OOP Project)
+# Student Task Management System (OOP Project)
 
+## Overview
+This console-based **C# application** offers a neat way to manage academic tasks for both **university** and **school** students. It’s a solid exercise in **Object-Oriented Programming (OOP)**, emphasizing:
 
-<br><br>
-📌 **Overview**
-This project is a console-based C# application for managing students’ academic tasks, supporting both university students and school students.
-It demonstrates Object-Oriented Programming (OOP) principles such as interfaces, inheritance, polymorphism, and file handling.
+- **Interfaces** (`IStudent`) to define standard behaviors
+- **Inheritance** from `Info` to manage shared student properties
+- **Polymorphism** to treat different student types uniformly
+- **File Handling** to persist student data and tasks in text files
 
-The system allows:
+---
 
-- Adding assignments or projects
-- Removing assignments or projects
-- Viewing tasks
-- Saving student information and tasks into separate files for each student type
-  
-<br><br>
+## Core Features
 
+- **Task Management**
+  - Add assignments or projects
+  - Remove tasks when they’re done
+  - View current assignments or projects
 
-📂 **Project Structure**
+- **Student Categories**
+  - University students → files stored in `uniStudents/`
+  - School students → files stored in `schoolStudents/`
+
+- **Automatic File Persistence**
+  - Each student’s details and tasks are saved in `.txt` format
+  - Directories are created on the fly if they don’t exist
+
+---
+
+## Project Structure
 
 student_project/
+- program.cs # Entry point and console menu/controller
+- Info.cs # Base class with shared student attributes
+- IStudent.cs # Interface declaring student actions
+- uniStudent.cs # Implementation for university students
+- schoolStudent.cs # Implementation for school students student_project.csproj # Project setup
+- uniStudents/ # Output folder for university student files
+- schoolStudents/ # Output folder for school student files
+---
 
-- program.cs
-- info.cs
-- IStudent.cs         
-- uniStudent.cs       
-- schoolStudent.cs    
-- student_project.csproj
+## How to Run
+
+1. **Clone** or download the repository
+2. Open in **Visual Studio** or your preferred C# IDE
+3. Make sure the **.NET SDK** is installed
+4. **Run** the app via your IDE or use:
+   ```bash
+   dotnet run
 
 
-<br><br>
-⚙️ Features
-- Task Management
-- Add assignments or projects
-- Remove assignments or projects
-- View current assignments or projects
 
-- Separate Categories
-University Students → Stored in uniStudents/ folder
-School Students → Stored in schoolStudents/ folder
-
-- File Management
-Saves student details and tasks in .txt files.
-Automatically creates directories for each student type.
-OOP Principles
-Interface (IStudent) for defining required student functionalities.
-Inheritance from Info class to share common properties.
-Polymorphism to handle multiple student types with the same methods.
-
+<br>
+<br>
+<br>
+<br>
+<br>

@@ -98,22 +98,8 @@ namespace OOP_Project
             return Regex.IsMatch(email, pattern, RegexOptions.IgnoreCase);
         }
 
-
-
-        public void storeEmail()
-        {
-            File.WriteAllText($"{Name}_email.txt", Email);
-        }
-        public void storePassword()
-        {
-            File.WriteAllText($"{Name}_password.txt", Password);
-        }
-        public void storeID()
-        {
-            File.WriteAllText($"{Name}_ID.txt", ID);
-        }
-
     }
 
  }
+
 

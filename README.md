@@ -45,13 +45,10 @@ student_project/
 2. Open in **Visual Studio** or your preferred C# IDE
 3. Make sure the **.NET SDK** is installed
 4. **Run** the app via your IDE or use:
+---
    ```bash
    dotnet run
 
 
 
-<br>
-<br>
-<br>
-<br>
-<br>
+

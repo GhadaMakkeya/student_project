@@ -1,5 +1,7 @@
-🎓 Student Task Management System (OOP Project)
+# 🎓 Student Task Management System (OOP Project)
 
+
+<br><br>
 📌 **Overview**
 This project is a console-based C# application for managing students’ academic tasks, supporting both university students and school students.
 It demonstrates Object-Oriented Programming (OOP) principles such as interfaces, inheritance, polymorphism, and file handling.
@@ -10,18 +12,23 @@ The system allows:
 - Removing assignments or projects
 - Viewing tasks
 - Saving student information and tasks into separate files for each student type
+  
+<br><br>
+
 
 📂 **Project Structure**
 
 student_project/
 
-├── IStudent.cs         
-├── uniStudent.cs       
-├── schoolStudent.cs    
-├── student_project.csproj 
-|__ program.cs
-|__info.cs
+- program.cs
+- info.cs
+- IStudent.cs         
+- uniStudent.cs       
+- schoolStudent.cs    
+- student_project.csproj
 
+
+<br><br>
 ⚙️ Features
 - Task Management
 - Add assignments or projects
